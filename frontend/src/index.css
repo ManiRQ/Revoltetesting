@@ -1,0 +1,64 @@
+:root {
+  font-family: var(--font-body);
+  color: var(--color-ink);
+  background: var(--color-canvas);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --color-canvas: #f4efe7;
+  --color-paper: #fffdf9;
+  --color-input: #fffefa;
+  --color-ink: #302d28;
+  --color-muted: #777169;
+  --color-rule: #e9e2d8;
+  --color-rule-strong: #d7cec2;
+  --color-accent: #a34d36;
+  --color-accent-dark: #783a2b;
+  --color-accent-soft: #e9c9bd;
+  --color-accent-wash: #f4e7e0;
+  --color-danger: #9b3c35;
+  --color-danger-wash: #f7e9e6;
+  --color-focus-ring: #a34d36;
+
+  --font-body: Arial, Helvetica, sans-serif;
+  --font-display: Georgia, 'Times New Roman', serif;
+  --radius-control: 8px;
+  --radius-sheet: 14px;
+
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light;
+  background-color: var(--color-canvas);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button:focus-visible,
+input:focus-visible {
+  scroll-margin-block: 16px;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+::selection {
+  background: var(--color-accent-soft);
+  color: var(--color-ink);
+}

@@ -1,0 +1,24 @@
+# Dependencies and generated build output
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+coverage/
+.vite/
+**/.vite/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+*.local
+
+# Operating system files
+.DS_Store
+
+# Crash artifacts — a single core dump can exceed GitHub's 100MB file limit
+core
+core.*
+*.heapsnapshot
+report.*.json
+isolate-*.log
