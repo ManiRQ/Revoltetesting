@@ -1,0 +1,16 @@
+# Backend runtime artifacts
+/backend/node_modules/
+/backend/coverage/
+/backend/*.log
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Crash artifacts
+core
+core.*
+*.heapsnapshot
+report.*.json
+isolate-*.log
